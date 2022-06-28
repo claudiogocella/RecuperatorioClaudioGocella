@@ -68,23 +68,6 @@ console.log(
     calcularCompra(cantidadDeProducto, precioUnitario, cantidadDeProductos)
 );
 
-/*
-if (sumaTotal < 1000) {
-  console.log(
-    "Usted no supera el mínimo de compra para participar del sorteo"
-  );
-
-  } else if (sumaTotal > 1000 && sumaTotal < 2000) {
-  console.log("Con su compra, usted esta participando por un TV Led");
-
-  } else if (sumaTotal > 2000 && sumaTotal < 3000) {
-  console.log("Con su compra, usted esta participando por una Moto 0Km");
-
-  } else if (sumaTotal > 3000) {
-  console.log("Con su compra, usted esta participando por un Auto 0Km");
-}
-*/
-
 if (sumaTotal >= 1000 && total < 2000) {
   console.log("Con su compra, usted esta participando por un TV Led");
 } else if (sumaTotal >= 2000 && total < 3000) {

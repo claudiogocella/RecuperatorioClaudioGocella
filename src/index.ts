@@ -7,7 +7,7 @@ let cantidadDeProducto: number[] = new Array(cantidadDeProductos);
 let precioUnitario: number[] = new Array(cantidadDeProductos);
 let sumaTotal: number = 0;
 
-function cargarProductos(arreglo: string[], longitud: number) {
+function cargarProductos(arreglo: string[], longitud: number): void {
   let i: number;
 
   for (i = 0; i < longitud; i++) {

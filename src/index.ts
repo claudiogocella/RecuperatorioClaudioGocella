@@ -77,3 +77,7 @@ if (sumaTotal >= 1000 && total < 2000) {
 } else {
   console.log("Usted no supera el mínimo de compra para participar del sorteo");
 }
+
+/* Perdón, hice hasta donde pude. 
+Me trabé en el mommento de mostrar por consola la promo del sorteo
+*/

@@ -29,7 +29,7 @@ function cargarPrecioUnitarioDelProducto(arreglo: number[], longitud: number) {
   for (i = 0; i < longitud; i++) {
     arreglo[i] = Number(
       prompt("Ingrese el Precio del " + (i + 1) + "º producto"),
-  }
+    )}
 }
 
 function mostrarProductos(arreglo: number[], longitud: number) {
